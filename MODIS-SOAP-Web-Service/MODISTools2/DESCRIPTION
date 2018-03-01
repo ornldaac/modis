@@ -1,0 +1,18 @@
+Package: MODISTools
+Type: Package
+Title: MODIS Subsetting Tools
+Version: 0.95.1
+Date: 2017-02-15
+Author: Sean Tuck, Helen Phillips
+Imports: RCurl, XML, grDevices, graphics, stats, utils
+Maintainer: Sean Tuck <seanltuck@gmail.com>
+Description: Provides several functions for downloading, storing and processing 
+		subsets of MODIS Land Processes data as a batch process.
+License: GPL-3
+LazyLoad: yes
+LazyData: yes
+URL: https://github.com/seantuck12/MODISTools/
+NeedsCompilation: no
+Packaged: 2017-02-16 00:26:26 UTC; seantuck
+Repository: CRAN
+Date/Publication: 2017-02-16 07:13:34
