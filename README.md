@@ -3,7 +3,7 @@
 *Date: March 20th 2018*  
 *Contact: Contact for ORNL DAAC: uso@daac.ornl.gov*
 
-### Keywords: MDOIS, Python, R, Perl, Matlab
+### Keywords: MODIS, Python, R, Perl, Matlab
 
 ## Overview:  
 
