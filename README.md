@@ -1,4 +1,4 @@
-# Want to programmatically access MODIS subsets? Learn to access MODIS Webservice in R, Py, Perl etc.
+# MODIS Subsetting Tools and Services at ORNL DAAC
 
 *Date: March 20th 2018*  
 *Contact: Contact for ORNL DAAC: uso@daac.ornl.gov*
@@ -7,41 +7,40 @@
 
 ## Overview:  
 
-Using the sample codes provide users can access the ORNL DAAC MODIS Web Service users. The sample codes will provide scripts to   
+Documents in this repository pertain to usage of the MODIS Subsetting Tools and Services maintained by the ORNL DAAC. MODIS data hosted at the ORNL DAAC can be accessed in three ways:
 
-•	Retrieve MODIS land product subsets through command line operation
-•	Get subsets directly into software into client-side workflow
-•	Write custom code to use the subsets for visualization or data reformatting
+1. [Global Subsetting and Visualization Tool](https://modis.ornl.gov/cgi-bin/MODIS/global/subset.pl)  
+Request a subset for any location on earth, provided as GeoTiff and text format, including interactive time-series plots and more. Users specify a site by entering the site's geographic coordinates and the area surrounding that site, from one pixel up to 201 x 201 km.
 
-The sample codes are provided with inline comments. Users can download the sample code directly from [this github repository](https://github.com/ornldaac/modis/tree/master/MODIS-SOAP-Web-Service) and customized to meet user specific needs. Users are welcome to share their code back to the ORNL DAAC. 
+ORNL DAAC. 2017. MODIS Collection 6 Land Products Fixed Sites Subsetting and Visualization Tool. ORNL DAAC, Oak Ridge, Tennessee, USA. https://doi.org/10.3334/ORNLDAAC/1567
 
-Figure: 
-![MODIS Web Service img](https://daac.ornl.gov/LAND_VAL/guides/MODIS_Web_Service_C6_Fig1.png)
- 
+2. [Fixed Sites Tool](https://modis.ornl.gov/sites/)  
+Download pre-processed MODIS subsets for 1100+ field sites for validation of models and remote sensing products. The goal of the MODIS Subsets for Selected Field Sites is to prepare summaries of selected MODIS Land Products for the community to characterize field sites.
 
-## Source Data:  
-https://daac.ornl.gov/cgi-bin/dsviewer.pl?ds_id=1557 
+ORNL DAAC. 2017. MODIS Collection 6 Land Products Global Subsetting and Visualization Tool. ORNL DAAC, Oak Ridge, Tennessee, USA. https://doi.org/10.3334/ORNLDAAC/1379
 
-## Prerequisites and Procedure:  
+3. [Web Service](https://modis.ornl.gov/data/modis_webservice.html)  
+Retrieve subset data (in real-time) for any location(s), time period and area programmatically using a SOAP Web Service (from 1 pixel up to 201 x 201 km). Web Service client and libraries are available in multiple programming languages, allowing integration of subsets into users' workflow.
 
-### Perl client
+ORNL DAAC. 2017. MODIS Collection 6 Land Product Subsets Web Service. ORNL DAAC, Oak Ridge, Tennessee, USA. https://doi.org/10.3334/ORNLDAAC/1557
 
-The MODIS land product subset perl script is an easy to use perl implementation of the SOAP based interface to the ORNL DAAC MODIS data. The code was originally developed and contributed by [Dr. Koen Hufkens](http://www.khufkens.com/). Additional code contributions have been made by Dr. Stef Lhermitte to include a geographic header. These clients are written in Perl and use SOAP-Lite Perl module. The Perl client example allows users to submit request for a subset. The interface could be customized further to add more complex operations at the client end. 
+## Tutorials : 
 
-### Python client
+[Want to programmatically access MODIS subsets? Learn to access MODIS Webservice in R, Py, Perl etc.](modis/MODIS-SOAP-Web-Service/README.md)
 
-This client uses [SUDS](https://pypi.python.org/pypi/suds/0.4) python module. The python [client example](https://github.com/ornldaac/modis/blob/master/MODIS-SOAP-Web-Service/MODIS-python-client.py) allows users to submit request for a subset. The interface could be customized further to add more complex operations at the client end. The python client is written by Dr. Tristan Quaife, University of Reading, UK. 
+## Resources:
 
-### R
-Download the MODISTools package [here](https://github.com/ornldaac/modis/blob/master/MODIS-SOAP-Web-Service/MODISTools2.tar.gz).
-Install the downloaded package:
-```
-install.packages("MODISTools2.tar.gz",repos=NULL,type="source")
-```
-Download sample code [Rclient.R](https://github.com/ornldaac/modis/blob/master/MODIS-SOAP-Web-Service/Rclient.R) demonstrating usage of various available functions. 
+Web Service:  
+[R MODISTools package](modis/MODIS-SOAP-Web-Service/MODISTools2.tar.gz)
+[Example Perl client](modis/MODIS-SOAP-Web-Service/DAAC-LPS.pl)
+[Example Python client](modis/MODIS-SOAP-Web-Service/MODIS-python-client.py)
 
-### Matlab
+## Additional Information
 
-The matlab code was created for a modelling course conducted by Dr. Tristan Quaife, University of Reading, UK. 
+More information about MODIS tools and services provided by the ORNL DAAC can be found at the MODIS microsite:  
+https://modis.ornl.gov
+
+
+
 
 
