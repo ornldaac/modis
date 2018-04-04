@@ -28,7 +28,7 @@ ORNL DAAC. 2017. MODIS Collection 6 Land Product Subsets Web Service. ORNL DAAC,
 
 [Want to programmatically access MODIS subsets? Learn to access MODIS Webservice in R, Py, Perl etc.](modis/MODIS-SOAP-Web-Service/README.md)  
 [Plot Statistics Output from the MODIS Global and Fixed Site Tools](modis/modis-global-fixed-statistics.ipynb)  
-[Access the MODIS web service and perform quality filtering using R](modis_webservice_qc_filter_R/modis_webservice_qc_filter_R.ipynb)  
+[Access the MODIS web service and perform quality filtering using R](https://github.com/ornldaac/modis_webservice_qc_filter_R)  
 
 ## Resources:
 
