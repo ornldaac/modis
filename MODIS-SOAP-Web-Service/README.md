@@ -1,5 +1,6 @@
 # Want to programmatically access MODIS subsets? Learn to access MODIS Webservice in R, Py, Perl etc.
 
+*Author: ORNL DAAC*  
 *Date: March 20th 2018*  
 *Contact: Contact for ORNL DAAC: uso@daac.ornl.gov*
 
