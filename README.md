@@ -1,5 +1,6 @@
 # MODIS Subsetting Tools and Services at ORNL DAAC
 
+*Author: ORNL DAAC*  
 *Date: March 20th 2018*  
 *Contact: Contact for ORNL DAAC: uso@daac.ornl.gov*
 
